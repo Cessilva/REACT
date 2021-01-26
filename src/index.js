@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//Importamos react y react DOM, ambas importantes, la primera;la biblioteca, que nos permite crear las interfaces, la segunda; 
+//React enfocada al navegador,esto para una aplicacion WEB, en caso que querer desarrollar para moviles se agregaran adicionales
 
+import './index.css';
+//Podemos importar archivos css
+import App from './App';
+//El archivo en el que nos encontramos es el que ayuda a arrancar la aplicacion, indica que la aplicacion se encuentra en App.js
+import reportWebVitals from './reportWebVitals';
+//Para las aplicaciones que tratan de simular datos de manera local 
+//Se guardan los archivos de manera temporal en la memoria local de tu aplicacon (Progresive Web App)
+
+//Ayuda a renderizar la intefaz en pantalla , renderiza la aplicacion que escribimos (JSX)
 ReactDOM.render(
   <React.StrictMode>
     <App />
